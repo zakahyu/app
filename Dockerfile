@@ -4,5 +4,6 @@ COPY . .
 RUN pip install Flask
 RUN pip install translators
 EXPOSE 5000
-CMD ["flask", "run"]
+ENTRYPOINT [ "flask"]
+CMD [ "run", "--host", "0.0.0.0" ]
  
