@@ -4,5 +4,5 @@ COPY . .
 RUN pip install Flask
 RUN pip install translators
 EXPOSE 5000
-CMD CMD ["flask", "run"]
+CMD ["flask", "run"]
  
