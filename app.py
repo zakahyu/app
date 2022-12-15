@@ -43,7 +43,8 @@ def translator():
         elif translator == "translateCom":
             output = ts.translateCom(wyw_text, from_language='zh',to_language='en')
         return output
-    except:
+        except Exception as err:
+        print(err)
         return "017551c71e8b2869f85a2fa2c560dcc3"
 
 
