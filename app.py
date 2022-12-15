@@ -1,5 +1,5 @@
 from flask import Flask
-translators.server as ts
+import translators.server as ts
 import json
 from flask import render_template
 from flask import request
